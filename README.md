@@ -1,2 +1,0 @@
-# ZeroPhish
-ZeroPhish
