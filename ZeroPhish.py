@@ -32,7 +32,7 @@ def get_clean_domain(url):
     if not url.startswith(('http://', 'https://')):
         url = 'http://' + url
     parsed = urlparse(url)
-    # Port varsa temizle (orn: 192.168.1.1:8080 -> 192.168.1.1)
+
     return parsed.netloc.split(':')[0].lower()
 
 def extract_email_parts(header_val):
